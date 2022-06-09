@@ -1,0 +1,23 @@
+server:
+  port: 8084
+
+spring:
+  kafka:
+    consumer:
+      group-id: default
+      auto-offset-reset: latest
+    bootstrap-servers: localhost:9092
+  mail:
+    username: services.secure.hospital@gmail.com
+    password: dupa2115
+    host: smtp.gmail.com
+    properties:
+      mail:
+        smtp:
+          outh: true
+          starttls:
+            enable: true
+
+mail:
+  smtp:
+    port: 25

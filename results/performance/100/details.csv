@@ -1,0 +1,7 @@
+,name,total_time (s),total_request_count,mean processing time (ms),min processing time (ms),max processing time (ms)
+0,Data Entry Service,59,82106,64.35100967042604,5,1440
+1,Schema Service,59,82106,6.923939785155774,1,317
+2,Data Service,58,82106,0.06026356173726646,0,20
+3,Event Processing Service,58,82106,0.0810781185297055,0,78
+4,Prediction Service,58,82106,0.14406986091150464,0,68
+5,All services combined,59,82106,98.7321511217207,22,1891

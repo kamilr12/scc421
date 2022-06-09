@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  api:
+      image: data-entry-service
+      deploy:
+        mode: replicated
+        replicas: 3

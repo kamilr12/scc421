@@ -1,0 +1,43 @@
+microsoft_hoeffding:
+0 1
+0   1265 609
+1   167 196
+
+microsoft_knn:
+
+0 1
+0   1769 105
+1   310 53
+
+
+microsoft_logistic:
+
+0 1
+0   1837 37
+1   322 41
+
+microsoft_pa:
+
+0 1
+0   1059 815
+1   164 199
+
+nasa_hoeffding:
+0 1
+0   92 1
+1   4 3
+
+nasa_knn:
+0 1
+0   90 3
+1   4 3
+
+nasa_logistic:
+0 1
+0   92 1
+1   2 5
+
+nasa_pa:
+0 1
+0   87 6
+1   0 7

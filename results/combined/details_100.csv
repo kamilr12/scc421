@@ -1,0 +1,6 @@
+0,Data Entry Service,59,82106,64.35100967,5,1440
+1,Schema Service,59,82106,6.923939785,1,317
+2,Data Service,58,82106,0.060263562,0,20
+3,Event Processing Service,58,82106,0.081078119,0,78
+4,Prediction Service,58,82106,0.144069861,0,68
+5,All services combined,59,82106,98.73215112,22,1891

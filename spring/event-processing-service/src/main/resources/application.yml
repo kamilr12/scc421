@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  kafka:
+    consumer:
+      topic:
+        activation-status: true
+      group-id: predictive-app
+      auto-offset-reset: latest
+    bootstrap-servers: host.docker.internal:9092
+  data:
+    mongodb:
+      uri: mongodb://root:password@host.docker.internal:27017
+      database: rules

@@ -1,0 +1,22 @@
+package rules
+import com.microservices.shared.SensorReadingMapped
+
+declare SensorReadingMapped
+    @role(event)
+end
+
+declare window LastReadings
+    SensorReadingMapped() over window:length(3) from entry-point "ReadingStream"
+end
+
+rule "rule1"
+    no-loop true
+    lock-on-active true
+    salience 1
+    when
+        Number(intValue > 2) from accumulate(
+                $r : SensorReadingMapped(content["valueOne"] == 3) from window LastReadings,
+                count($r))
+    then
+        System.out.println("XDDDDDDDDDDDDD");
+end
